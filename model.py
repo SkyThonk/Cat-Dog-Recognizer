@@ -56,7 +56,9 @@ def main():
 
 
     ###predict the images###
-    test_image = ImagePrediction('dataset/single_prediction/cat_or_dog_2.jpg')
+    img = input("Enter the location of your image file: ")
+    ###If you don't have any image than you can enter this location 'dataset/single_prediction/cat_or_dog_2.jpg'###
+    test_image = ImagePrediction(img)
     result = classifier.predict(test_image)
     if result[0][0] == 1:
         predictions = 'dog'
