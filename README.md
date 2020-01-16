@@ -3,11 +3,10 @@
  
  # Requirement
  Python
- 
  Keras
- 
  Tensorflow
- 
  Jupytor-Notebook
- 
  Numpy
+
+# Suggestion
+Use the Jupyter_model.ipynb so that you don't have to train the model again and again
