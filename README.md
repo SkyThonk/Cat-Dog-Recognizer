@@ -3,9 +3,13 @@
  
  # Requirement
  Python
+ 
  Keras
+ 
  Tensorflow
+ 
  Jupytor-Notebook
+ 
  Numpy
 
 # Suggestion
